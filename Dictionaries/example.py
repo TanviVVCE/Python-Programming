@@ -4,6 +4,7 @@ cats = {
     'address': 'mysore'
 }
 
+print(cats.keys())
 # print(cats['address'])
 # for val in cats.items():
 #     print(val)
@@ -24,4 +25,4 @@ cats = {
 # print(total_donations)
 
 a = {}.fromkeys(['a', 'b'], 'unknown')
-print(a)
+# print(a)
